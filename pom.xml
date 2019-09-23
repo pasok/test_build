@@ -30,6 +30,7 @@
 			<scope>test</scope>
 		</dependency>
 
+
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -46,7 +47,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>hello.HelloApplication</mainClass>
+					<mainClass>hello.Application</mainClass>
 				</configuration>
 			</plugin>
 
